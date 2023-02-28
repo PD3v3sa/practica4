@@ -1,0 +1,19 @@
+site_name: My Docs
+theme: readthedocs
+
+docs_dir: "md"
+site_dir: "docs"
+
+markdown_extensions:
+  - admonition
+
+
+nav:
+    - Home: index.md
+    - About: about.md
+
+
+
+
+extra_css:
+  - css/extra.css
