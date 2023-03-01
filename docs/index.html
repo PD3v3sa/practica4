@@ -1,144 +1,609 @@
-<!DOCTYPE html>
-<html class="writer-html5" lang="en" >
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" />
-      <link rel="shortcut icon" href="img/favicon.ico" />
-    <title>My Docs</title>
-    <link rel="stylesheet" href="css/theme.css" />
-    <link rel="stylesheet" href="css/theme_extra.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
-        <link href="css/extra.css" rel="stylesheet" />
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
     
-      <script>
-        // Current page data
-        var mkdocs_page_name = "Home";
-        var mkdocs_page_input_path = "index.md";
-        var mkdocs_page_url = null;
-      </script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="about/">
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.14">
     
-    <script src="js/jquery-3.6.0.min.js" defer></script>
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-    <![endif]-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-      <script>hljs.initHighlightingOnLoad();</script> 
-</head>
-
-<body class="wy-body-for-nav" role="document">
-
-  <div class="wy-grid-for-nav">
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-    <div class="wy-side-scroll">
-      <div class="wy-side-nav-search">
-          <a href="." class="icon icon-home"> My Docs
-        </a><div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
-      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
-  </form>
-</div>
-      </div>
-
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href=".">Home</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#commands">Commands</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#project-layout">Project layout</a>
-    </li>
-    </ul>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="about/">About</a>
-                </li>
-              </ul>
-      </div>
-    </div>
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href=".">My Docs</a>
+    
+      
+        <title>MeTaSPLoiT</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.113286f1.min.css">
+      
         
-      </nav>
-      <div class="wy-nav-content">
-        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href="." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-      <li>Home</li>
-    <li class="wy-breadcrumbs-aside">
-    </li>
-  </ul>
-  <hr/>
-</div>
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-            <div class="section" itemprop="articleBody">
-              
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
-              
-            </div>
-          </div><footer>
-    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="about/" class="btn btn-neutral float-right" title="About">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <link rel="stylesheet" href="assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="css/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#metasploit" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
 
-  <hr/>
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="MeTaSPLoiT" class="md-header__button md-logo" aria-label="MeTaSPLoiT" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
-  <div role="contentinfo">
-    <!-- Copyright etc -->
-  </div>
-
-  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
-          
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MeTaSPLoiT
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
         </div>
       </div>
-
-    </section>
-
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="rst-versions" role="note" aria-label="Versions">
-  <span class="rst-current-version" data-toggle="rst-current-version">
-    
-    
-    
-      <span><a href="about/" style="color: #fcfcfc">Next &raquo;</a></span>
-    
-  </span>
 </div>
-    <script>var base_url = '.';</script>
-    <script src="js/theme_extra.js" defer></script>
-    <script src="js/theme.js" defer></script>
-      <script src="search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
-            SphinxRtdTheme.Navigation.enable(true);
-        };
-    </script>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
 
-</body>
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="MeTaSPLoiT" class="md-nav__button md-logo" aria-label="MeTaSPLoiT" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    MeTaSPLoiT
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Home
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#modulos" class="md-nav__link">
+    MÓDULOS
+  </a>
+  
+    <nav class="md-nav" aria-label="MÓDULOS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estructura-de-directorios-importante" class="md-nav__link">
+    Estructura de directorios (Importante)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#intro-a-metasploit-framework" class="md-nav__link">
+    INTRO A METASPLOIT FRAMEWORK
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comandos-basicos" class="md-nav__link">
+    COMANDOS BÁSICOS
+  </a>
+  
+    <nav class="md-nav" aria-label="COMANDOS BÁSICOS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ordenes-de-ayuda" class="md-nav__link">
+    Órdenes de ayuda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orden-de-busqueda" class="md-nav__link">
+    Orden de búsqueda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orden-de-busqueda_1" class="md-nav__link">
+    Orden de búsqueda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ordenes-de-interaccion-y-configuracion" class="md-nav__link">
+    Órdenes de interacción y configuración
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Exemples
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Exemples
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tema1/exemple1/" class="md-nav__link">
+        Exemple 1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#modulos" class="md-nav__link">
+    MÓDULOS
+  </a>
+  
+    <nav class="md-nav" aria-label="MÓDULOS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estructura-de-directorios-importante" class="md-nav__link">
+    Estructura de directorios (Importante)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#intro-a-metasploit-framework" class="md-nav__link">
+    INTRO A METASPLOIT FRAMEWORK
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comandos-basicos" class="md-nav__link">
+    COMANDOS BÁSICOS
+  </a>
+  
+    <nav class="md-nav" aria-label="COMANDOS BÁSICOS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ordenes-de-ayuda" class="md-nav__link">
+    Órdenes de ayuda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orden-de-busqueda" class="md-nav__link">
+    Orden de búsqueda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orden-de-busqueda_1" class="md-nav__link">
+    Orden de búsqueda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ordenes-de-interaccion-y-configuracion" class="md-nav__link">
+    Órdenes de interacción y configuración
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="metasploit">MeTaSPLoiT</h1>
+<p><img alt="metasploit" src="https://diesec.com/wp-content/uploads/2022/07/metasploit-diesec.jpg" /></p>
+<div class="admonition danger">
+<p class="admonition-title">Perill!</p>
+<p><strong>No proveu açò fora d'ún entorn didáctic. Podria ser un delicte.</strong></p>
+</div>
+<h2 id="modulos">MÓDULOS</h2>
+<ul>
+<li><strong>Auxiliary:</strong> Permite la interacción de herramientas externas como pueden ser:** Escaners de vulnerabilidades, Sniffers, etc... con el framework de Metasploit </li>
+<li><strong>Encoders:</strong> Proporciona algoritmos par codificar y ofuscar los payloads que utilizaremos tras haber tenido éxito el exploit </li>
+<li><strong>Exploits:</strong> Aquí se encuentran todos los exploits disponibles en el “framework” para conseguir acceso a los diferentes SO’s </li>
+<li><strong>Payloads:</strong> Nos proporciona gran cantidad de códigos “maliciosos” que podremos ejecutar una vez haya tenido éxito el “exploit” </li>
+<li><strong>Post:</strong> Nos proporciona funcionalidades para la fase de “post” explotación como recolección de información, etc... </li>
+<li><strong>Nops:</strong> Nos permite realizar u obtener operaciones NOP para evadir antivirus, IDS, etc... </li>
+</ul>
+<h3 id="estructura-de-directorios-importante"><strong>Estructura de directorios (Importante)</strong></h3>
+<p><code>Modules/exploits/&lt;OS/Platform&gt;/&lt;Protocol/Service/Local...&gt;/file.rb</code>
+<img alt="ruta" src="img/rutas.png" /></p>
+<h2 id="intro-a-metasploit-framework">INTRO A METASPLOIT FRAMEWORK</h2>
+<ul>
+<li>Lanzamos la orden <strong>msfconsole</strong> desde el terminal que nos devolverá el identificador <strong>msf &gt;</strong> para introducir las órdenes.</li>
+<li>Previamente será bueno actualizarlo: <strong>root@kali.~# msfupdate</strong></li>
+<li>La consola MSF es como un mini-sistema de archivos donde las carpetas que cuelgan de él se encuentran físicamente en la ruta dónde se ha instalado el framework. Ejemplos:<ul>
+<li>Los exploits de Windows esta en la ruta <strong>exploit/windows/&lt;..&gt;</strong></li>
+<li>Los módulos auxiliares en <strong>auxiliary/&lt;...&gt;</strong></li>
+<li>Los encoders en <strong>encoders/<tecnologia></strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="comandos-basicos">COMANDOS BÁSICOS</h2>
+<h3 id="ordenes-de-ayuda"><strong>Órdenes de ayuda</strong></h3>
+<pre><code>* msf &gt; `help –` lista las órdenes separadas en dos listados:
+
+    * Órdenes del núcleo de msf
+    * Órdenes de interacción con bases de datos.
+    * -h permite obtener información de órdenes concretas.
+</code></pre>
+<h3 id="orden-de-busqueda"><strong>Orden de búsqueda</strong></h3>
+<ul>
+<li>msf &gt; <code>help –</code> lista las órdenes separadas en dos listados:<pre><code>* Órdenes del núcleo de msf
+* Órdenes de interacción con bases de datos.
+* -h permite obtener información de órdenes concretas.
+</code></pre>
+</li>
+</ul>
+<h3 id="orden-de-busqueda_1"><strong>Orden de búsqueda</strong></h3>
+<p>Útil para la búsqueda de módulos por alguna característica o determinar si elframework esta actualizado.
+    * msf &gt; <code>search -h</code></p>
+<ul>
+<li>info – aporta información sobre el módulo seleccionado bien con la orden use (que permite seleccionar un módulo), bien especificando la ruta:<ul>
+<li>msf &gt; <code>use exploit/multi/handler</code></li>
+<li>msf &gt; <code>info</code></li>
+<li>msf &gt; <code>info &lt;ruta&gt;</code></li>
+</ul>
+</li>
+<li>show – muestra las diferentes opciones para los módulos del framework, exploits,payload, encoders, nops, etc.</li>
+</ul>
+<h3 id="ordenes-de-interaccion-y-configuracion"><strong>Órdenes de interacción y configuración</strong></h3>
+<ul>
+<li>back – permite salir del módulo (contrario a use)</li>
+<li>set y setg – asignan valores a variables: set para un módulo, setg para en contexto del framework.</li>
+<li>unset y unsetg – desasignan valores a parámetros o variables</li>
+<li>connect – permite conectarnos a otra máquina para su gestión o administración dado la dirección IP y el puerto.</li>
+<li>irb – permite ejecutar un interprete de Ruby para el framework para ejercutar órdenes y scripts.</li>
+<li>load, unload y loadpath – load/unload especifica el plugins a cargar/descargar, o directorio donde se almacenan (loadpath).</li>
+<li>
+<p>check – permite verificar si un sistema es vulnerable a cierta vulnerabilidad antes de lanzar el script.</p>
+</li>
+<li>
+<p><strong>exploit</strong> – lanza el código malicioso, una vez seleccionado y configurado el módulo, sobre la máquina, o prepara el entorno para vulnerar la máquina. Devuelve el control mediante un shell o un Meterpreter (Meta-interprete: payload que permite cargar e inyectar en un programa del sistema atacado las extensiones que hemos desarrollado en formato .dll).</p>
+</li>
+<li>
+<p>Opciones:
+        * -j ejecutar exploit en segundo plano
+        * -z no se interactúa con la sesión tras explotación exitosa
+        * -e lanza el paylod con la codificación establecida</p>
+</li>
+<li>sessions – las shells obtenidas en sistemas vulnerados se organizan por sesiones. Esta orden permite ver las sesiones que tenemos abiertas:<ul>
+<li>-l lista sesiones disponibles</li>
+<li>-v muestra información extra</li>
+<li>-s <strong>script</strong> ejecuta script sobre todas las sesiones del Meterpreter</li>
+<li>-K finaliza todas las sesiones abiertas</li>
+<li>-c <orden> ejecutar órdenes sobre sesiones abiertas del meterpreter</li>
+<li>-u permite actualizar la shell remota tipo Win32 a un meterpreter especificando la sesión.</li>
+<li>-i especifican sesión con la que interaccionar.</li>
+</ul>
+</li>
+<li>resource – permite la carga de un archivo (.rc) con acciones especificas sobre el framework para automatizar tareas.</li>
+<li>makerc – almacena en un archivo el historial de órdenes y acciones que se han realiza en la sesión en curso (nombre-usuario en el directorio .msfX)</li>
+<li>save – aporta persistencia a la configuración del entorno, especialmente es test complicados y largos (archivo config en .msfX).</li>
+<li>jobs – muestra/finaliza los módulos en ejecución en segundo plano</li>
+<li>run – permite ejecutar un módulo auxiliar cargado en el contexto de la consola.</li>
+<li>route – enruta sockets a sesiones (similar al route de Linux). Útil en pivoting</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.2a6f1dda.min.js"></script>
+      
+    
+  </body>
 </html>
-
-<!--
-MkDocs version : 1.4.2
-Build Date UTC : 2023-02-28 18:11:59.639315+00:00
--->
