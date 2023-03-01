@@ -1,5 +1,5 @@
-site_name: My Docs
-theme: readthedocs
+site_name: MeTaSPLoiT
+theme: material
 
 docs_dir: "md"
 site_dir: "docs"
@@ -11,8 +11,8 @@ markdown_extensions:
 nav:
     - Home: index.md
     - About: about.md
-
-
+    - Exemples :
+      - Exemple 1: tema1/exemple1.md
 
 
 extra_css:
