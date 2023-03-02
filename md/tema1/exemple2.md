@@ -30,4 +30,4 @@ Ja estem dins...
   * Per a no deixar Rastre
     * clearev
 
-Per supossat hi han prou més... convide a l'usuari a investigar-los, només heu de ficar dins de l'exploit: `help`
+Per supossat hi han prou més... convide a l'usuari a investigar-los, només heu de ficar dins de l'exploit: `help`.
