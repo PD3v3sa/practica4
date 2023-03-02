@@ -14,7 +14,6 @@
 * i executem `exploit`
 
 Ja estem dins...
-
 * Comandaments que podem fer servir:
   * De sitema:
     * sysinfo
