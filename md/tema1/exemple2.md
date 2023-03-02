@@ -17,9 +17,9 @@ Ja estem dins...
     * sysinfo
     * pwd
     * getuid
-    * migrate pid por si caso cierra el programa que me ha conectado
+    * migrate pid 
     * getsystem
-    * hashdump -> crackstation
+    * hashdump -> crackstation(desxifra el md5)
     * screenshot
     * upload de kali a win7
     * download de W7 a Kali
