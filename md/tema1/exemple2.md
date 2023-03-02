@@ -22,5 +22,5 @@ Ja estem dins...
     * hashdump -> crackstation(desxifra el md5)
     * screenshot
     * upload de kali a win7
-    * download de W7 a Kali
-    * keyscan_start keyscan_dump
+    * download de W7 a Kali.
+    * keyscan_start keyscan_dump.
