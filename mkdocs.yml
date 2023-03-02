@@ -12,7 +12,8 @@ nav:
     - Home: index.md
     - About: about.md
     - Exemples :
-      - Exemple 1: tema1/exemple1.md
+      - Exemple Linux: tema1/exemple1.md
+      - Exemple Windows: tema1/exemple2.md
 
 
 extra_css:

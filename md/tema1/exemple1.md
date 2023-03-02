@@ -1,4 +1,7 @@
-En aesta pràctica prepararem la màquina `metasploitable 2` per a poder realitzar algunes activitats amb Metasploit amb posterioritat.
+## En aesta pràctica prepararem la màquina `metasploitable 2 (linux)` per a poder realitzar algunes activitats amb Metasploit amb posterioritat.
+
+!!!danger "Perill!!"
+    No proveu açò fora d'un entorn didáctic. Podrieu cometrer un delicte...
 
 1 Inicia les màquines `Kali Linux` i `Metasploitable 2`. Ha d'haver-hi comunicació per xarxa local entre ambdues. 
 !!!note "Anotació"
