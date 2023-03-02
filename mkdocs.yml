@@ -1,5 +1,5 @@
 site_name: MeTaSPLoiT
-theme: material
+theme: readthedocs
 
 docs_dir: "md"
 site_dir: "docs"
