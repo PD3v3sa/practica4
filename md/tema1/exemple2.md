@@ -13,7 +13,7 @@
 
 Ja estem dins...
 
-* Comandaments:
+ Comandaments:
     * sysinfo
     * pwd
     * getuid
